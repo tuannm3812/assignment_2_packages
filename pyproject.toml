@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "assignment_2_packages"
+version = "0.1.0"
+description = "A package for doing great things!"
+authors = ["ManhTuan_Nguyen"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
